@@ -27,11 +27,9 @@ One of the most important aspects of programming is writing code that is readabl
 
 ![alttext](assets/app-screenshot.png "HTML Screenshot")
 
-This application uses [Jest](https://www.npmjs.com/package/jest) to run tests and [Inquirer.js](https://www.npmjs.com/package/inquirer) to prompt the user with a series of questions that assist in creating an HTML page of each team member's information. 
+This application uses [Jest](https://www.npmjs.com/package/jest) to test all classes and [Inquirer.js](https://www.npmjs.com/package/inquirer) to prompt the user with questions that assist in building a team.html webpage featuring each member's information. 
 
 After the prompts are answered by the user, the application automatically generates an HTML page that displays all of the team members information.
-
-For an example of what the automatically generated HTML page looks like, please open "demo-team.html" located in root of this repository.
 
 ## Contributing
 
