@@ -11,6 +11,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
   </head>
@@ -18,14 +23,28 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 jumbotron mb-3 team-heading">
-          <h1 class="text-center">My Team</h1>
+        <div
+          class="col-12 jumbotron mb-5 team-heading"
+          style="background-color: #383d45; color: white"
+        >
+          <img
+            src="../assets/dark-logo-full.png"
+            class="img-fluid mx-auto d-block"
+            style="width: 15%"
+            alt="Company Logo"
+          />
+          <h1
+            class="text-center"
+            style="font-size: 21px; font-family: 'Open Sans', sans-serif"
+          >
+            MARTINEZ COMPANY LIMITED
+          </h1>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="team-area col-12 d-flex justify-content-center">
+        <div class="card-deck team-area col-12 d-flex justify-content-center">
           {{ team }}
         </div>
       </div>

@@ -10,12 +10,9 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-// Write code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
-
 let employees = [];
 
-//Prompts user to create a Manager profile
+//Creates a Manager profile
 inquirer
   .prompt([
     {
@@ -48,13 +45,6 @@ inquirer
     );
     employees.push(manager);
     createTeam();
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
   });
 
 //Prompts user to select which team member they would like to create
@@ -119,13 +109,6 @@ function createEngineer() {
       );
       employees.push(engineer);
       createTeam();
-    })
-    .catch((error) => {
-      if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-      } else {
-        // Something else when wrong
-      }
     });
 }
 
@@ -163,13 +146,6 @@ function createIntern() {
       );
       employees.push(intern);
       createTeam();
-    })
-    .catch((error) => {
-      if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-      } else {
-        // Something else when wrong
-      }
     });
 }
 
@@ -179,13 +155,3 @@ function renderTeam() {
   }
   return fs.writeFileSync(outputPath, render(employees));
 }
-
-// After the user has input all employees desired, call the `render` function (required
-// above) and pass in an array containing all employee objects; the `render` function will
-// generate and return a block of HTML including templated divs for each employee!
-
-// After you have your html, you're now ready to create an HTML file using the HTML
-// returned from the `render` function. Now write it to a file named `team.html` in the
-// `output` folder. You can use the variable `outputPath` above target this location.
-// Hint: you may need to check if the `output` folder exists and create it if it
-// does not.
