@@ -31,6 +31,8 @@ This application uses [Jest](https://www.npmjs.com/package/jest) to test class s
 
 After the prompts are answered by the user, the application automatically generates an HTML page displaying the manager's team.
 
+https://www.loom.com/share/44a277bd989b47f6a33ff4858ba6d87e?sharedAppSource=personal_library
+
 ## Contributing
 
 Please ensure that your pull request adheres to the following guidelines:
