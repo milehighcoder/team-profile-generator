@@ -25,7 +25,7 @@ One of the most important aspects of programming is writing code that is readabl
 
 ## Usage
 
-[App Screenshot](/Users/mychalmartinez/Desktop/coding-boot-camp/my-projects/homework/team-profile-generator/assets/app-screenshot.png)
+[App Screenshot](/assets/app-screenshot.png)
 
 This application uses [Jest](https://www.npmjs.com/package/jest) to run tests and [Inquirer.js](https://www.npmjs.com/package/inquirer) to prompt the user with a series of questions that assist in creating an HTML page of each team member's information. 
 
@@ -54,7 +54,7 @@ Thank you for your suggestions!
 
 This application was build using class syntax and constructor functions. The function for each employee type was tested before building out the rest of the program.
 
-[Tests Screenshot](/Users/mychalmartinez/Desktop/coding-boot-camp/my-projects/homework/team-profile-generator/assets/testing-screenshot.png)
+[Tests Screenshot](/assets/testing-screenshot.png)
 
 ## License
 
