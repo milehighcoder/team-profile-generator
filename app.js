@@ -149,6 +149,7 @@ function createIntern() {
     });
 }
 
+//writes the team.html page to the output folder
 function renderTeam() {
   if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR);
