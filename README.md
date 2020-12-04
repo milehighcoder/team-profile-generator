@@ -27,7 +27,7 @@ One of the most important aspects of programming is writing code that is readabl
 
 ![alttext](assets/app-screenshot.png "HTML Screenshot")
 
-This application uses [Jest](https://www.npmjs.com/package/jest) to test all classes and [Inquirer.js](https://www.npmjs.com/package/inquirer) to prompt the user with questions that assist in building a team.html webpage featuring each member's information. 
+This application uses [Jest](https://www.npmjs.com/package/jest) to test class syntax/constructor functions and [Inquirer.js](https://www.npmjs.com/package/inquirer) to prompt the user with questions that assist in building a team.html webpage featuring each member's information. 
 
 After the prompts are answered by the user, the application automatically generates an HTML page displaying the manager's team.
 
@@ -50,7 +50,7 @@ Thank you for your suggestions!
 
 ## Tests
 
-This application was build using class syntax and constructor functions. The function for each employee type was tested before building out the rest of the program.
+This application was created by using class syntax and constructor functions. Each employee type was tested before building out the rest of the application.
 
 ![alttext](assets/testing-screenshot.png "Tests Screenshot")
 
